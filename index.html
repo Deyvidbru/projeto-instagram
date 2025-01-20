@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin-top: 1%;
+            margin-left: 4%;
+            margin-right: 4%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .logo-instagram{
+            font-family: 'Pacifico', cursive;
+        }
+        .logo-ifrn:hover{
+            filter: brightness(80%);
+            transition: filter 0.3s ease;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .login{
+            display: flex;
+            flex-wrap: wrap;
+            width: 20%;
+        }
+        .login a{
+            font-size: 18px;
+        }
+
+        .sessao{
+            background-color: #0284c7;
+            color: white;
+            text-decoration: none;
+            padding: 4% 4%;
+            border-radius: 8px;
+            margin-right: 10%;
+        }
+
+        .sessao:hover{
+            background-color: #0ea5e9;
+        }
+        .registro{
+            display: flex;
+            align-items: center;
+            color: #0284c7;
+            text-decoration: none;
+        }
+        .registro:hover{
+            color: #0ea5e9;
+        }
+        .sobre-ifrn{
+            display: flex;
+            align-items: center;
+            margin-left: 10%;
+        }
+        .dados-ifrn{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 80%;
+            margin-left: 4%;
+        }
+        .links-seguir a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            margin-right: 4%;
+        }
+        .links-seguir .seguir{
+            background-color: #0284c7;
+            padding: 1% 2%;
+            border-radius: 10px;
+            color: white;
+        }
+        .links-seguir .seguir:hover{
+            background-color: #0ea5e9;
+        }
+        .links-seguir .mensagem{
+            background-color: #e5e7eb;
+            padding: 1% 2%;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .links-seguir .mensagem:hover{
+            background-color: #d1d5db;
+        }
+        .numeros{
+            display: flex;
+        }
+        .numeros h2, a{
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 4%;
+        }
+        .campus h2{
+            font-size: 18px;
+        }
+        .campus p{
+            font-size: 18px;
+        }
+        .endereco{
+            color: grey;
+        }
+        .campus a{
+            color: #0000FF;
+        }
+        .campus a:hover{
+            text-decoration: underline;
+        }
+        .feed {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; 
+            justify-content: center; 
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+
+        .feed .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+            width: 150px; 
+        }
+
+        .feed .item img {
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid #d1d5db;
+        }
+        .feed .item img:hover {
+            filter: brightness(80%);
+            transition: filter 0.3s ease;
+        }
+
+        .feed .item p {
+            margin-top: 10px;
+            font-size: 14px; 
+            color: black;
+        }
+
+        .line{
+            border: 1px solid #d1d5db;
+            margin-bottom: 30px;
+        }
+        .publicacoes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .publicacoes .grid-imagens img{
+            width: 350px;
+            height: 350px;
+        }
+        .publicacoes .grid-imagens img:hover {
+            filter: brightness(80%);
+            transition: filter 0.3s ease;
+        }
+        .campus p{
+            margin-top: 5px;
+        }
+        .campus .link-if{
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #f8f9fa; 
+            text-align: center; 
+            padding: 10px 0; 
+            font-size: 14px; 
+            color: #6c757d; 
+            margin: 2% 0;
+        }
+
+        footer a {
+            color: #007bff; 
+            text-decoration: none; 
+        }
+
+        footer a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-instagram">
+                <h1>Instagram</h1>
+            </div>
+            <div class="login">
+                <a href="https://www.instagram.com/accounts/login/?next=%2Fp%2FDDPW98txqns%2F&source=desktop_nav" class="sessao" target="_blank">Iniciar Sessão</a>
+                <a href="https://www.instagram.com/accounts/emailsignup/" class="registro" target="_blank">Registre-se</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="sobre-ifrn">
+                <div class="logo-ifrn">
+                    <img src="img/logo-ifrn.png" alt="">
+                </div>
+                <div class="dados-ifrn">
+                    <div class="links-seguir">
+                        <a href="#">ifrn_parelhas</a>
+                        <a href="#" class="seguir">Seguir</a>
+                        <a href="https://www.instagram.com/direct/t/101458824588255?theme=white" class="mensagem" target="_blank">Enviar mensagem</a>
+                    </div>
+                    <div class="numeros">
+                        <h2><b>6 </b>publicações</h2>
+                        <a href="#"><b>4.637 </b>seguidores</a>
+                        <a href="#"><b>302</b> seguindo</a>
+                    </div>
+                    <div class="campus">
+                        <h2>IFRN - Campus Parelhas</h2>
+                        <p>Perfil oficial do Campus Parelhas do IFRN.</p>
+                        <p>Somos a Flor do Sertão Potiguar, trazendo uma educação pública de qualidade 🌺🌵🏜️</p>
+                        <p>☎️ (84) 4005-4115</p>
+                        <p class="endereco">Rua Dr. Mauro Duarte, S/N José Clóvis, Parelhas 59360000</p>
+                        <a href="https://portal.ifrn.edu.br/campus/parelhas/" target="_blank" class="link-if">portal.ifrn.edu.br/campus/parelhas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feed">
+            <div class="item">
+                <img src="img/sisu-2019.png" alt="">
+                <p>SISU 2019</p>
+            </div>
+            <div class="item">
+                <img src="img/mulheres-mil.png" alt="">
+                <p>MulheresMil ...</p>
+            </div>
+            <div class="item">
+                <img src="img/secitex.png" alt="">
+                <p>Secitex 2018</p>
+            </div>
+            <div class="item">
+                <img src="img/expotec.png" alt="">
+                <p>Expotec 2018</p>
+            </div>
+            <div class="item">
+                <img src="img/Captura de tela 2025-01-20 154228.png" alt="">
+                <p>Mulheres Mil</p>
+            </div>
+            <div class="item">
+                <img src="img/numeros.png" alt="">
+                <p>Em números</p>
+            </div>
+        </div>
+        
+        <div class="line"></div>
+        <div class="publicacao"></div>
+        <div class="publicacoes">
+            <div class="grid-imagens">
+                <img src="img/imagem-feed-1.png" alt="">
+                <img src="img/imagem-feed-2.png" alt="">
+                <img src="img/imagem-feed-3.png" alt="">
+            </div>
+            <div class="grid-imagens">
+                <img src="img/imagem-feed-4.png" alt="">
+                <img src="img/imagem-feed-5.png" alt="">
+                <img src="img/imagem-feed-6.png" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <p>
+              Página criada por <strong>Deyvid</strong>, com base na página do Instagram: 
+              <a href="https://www.instagram.com/ifrn_parelhas/" target="_blank">IFRN Parelhas</a>.
+            </p>
+          </footer>          
+    </div>
+</body>
+</html>
