@@ -1,0 +1,12 @@
+/* Responsividade de botões da sessão adicionada com largura máxima da mesa digitalizadora (768px) */
+@media only screen and (max-width: 1315px){
+    .login{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 970px){
+    .login{
+        width: 38%;
+    }
+    
+}
